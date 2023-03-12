@@ -1,5 +1,5 @@
 import { APIGatewayProxyHandlerV2 } from "aws-lambda";
-import { notes } from '../../../services/notes';
+import { notes } from '../../services/notes';
 
 export const handler: APIGatewayProxyHandlerV2 = async (event) => {
     const noteId = event.pathParameters?.id;

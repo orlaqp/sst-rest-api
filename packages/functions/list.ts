@@ -1,4 +1,4 @@
-import { notes } from '../../../services/notes';
+import { notes } from '../../services/notes';
 
 export async function handler() {
     return {

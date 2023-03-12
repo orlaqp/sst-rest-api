@@ -1,4 +1,4 @@
-import { notes } from "../../../services/notes";
+import { notes } from "../../services/notes";
 import { APIGatewayProxyHandlerV2 } from "aws-lambda";
 
 export const handler: APIGatewayProxyHandlerV2 = async (event) => {
